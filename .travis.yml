@@ -1,9 +1,7 @@
-language: bash
+language: node_js
 
-sudo: required
-
-services:
-- docker
+node_js:
+  - "iojs"
 
 script:
-- echo "Hello World!"
+- node index.js
