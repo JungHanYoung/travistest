@@ -4,4 +4,6 @@ node_js:
   - stable
 
 script:
-- node index.js
+  - env
+  - node index.js
+
